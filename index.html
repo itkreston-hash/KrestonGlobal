@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KrestonGlobal - Dr.Abdelmoniem Elsayed</title>
+  <meta name="description" content="KrestonGlobal Links - Chartered Accountants and Consultants">
+  <style>
+    :root{
+      --text:#0f172a;
+      --muted:#475569;
+      --accent:#0284c7;
+      --accent-hover:#0369a1;
+      --card: rgba(255,255,255,.88);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic UI", Arial, sans-serif;
+      color:var(--text);
+      overflow-x:hidden;
+    }
+    #bg-gif{
+      position:fixed; inset:0; width:100%; height:100%; object-fit:cover;
+      z-index:-2; opacity:.28;
+    }
+    .overlay{
+      position:fixed; inset:0; z-index:-1;
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(2,132,199,.12) 0%, transparent 60%),
+                  linear-gradient(180deg, rgba(224,242,254,.5), rgba(248,250,252,.9));
+    }
+    .container{
+      min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px;
+    }
+    .card{
+      width:100%; max-width:560px; background:var(--card);
+      border:1px solid rgba(148,163,184,.25); border-radius:20px; padding:28px;
+      box-shadow:0 20px 60px rgba(0,0,0,.18); backdrop-filter: blur(6px); text-align:center;
+    }
+    .logo{ max-width:220px; margin:0 auto 10px; display:block }
+    h1{ margin:6px 0 2px; color:var(--accent) }
+    .subtitle{ margin:0 0 16px; color:var(--muted) }
+    .links{ display:flex; flex-direction:column; gap:12px; margin-top:14px }
+    a.btn{
+      display:flex; align-items:center; justify-content:center; gap:10px;
+      padding:14px 18px; border-radius:12px; background:var(--accent); color:white;
+      text-decoration:none; font-weight:700; border:1px solid transparent; transition:.15s ease;
+    }
+    a.btn:hover{ background:var(--accent-hover) }
+    .row{ display:grid; grid-template-columns:1fr 1fr; gap:12px }
+    footer{ margin-top:16px; color:var(--muted); font-size:12px }
+    svg{ vertical-align:middle }
+  </style>
+</head>
+<body>
+  <img id="bg-gif" src="bg.gif" alt="background animation" />
+  <div class="overlay"></div>
+  <div class="container">
+    <section class="card">
+      <img src="logo.png" class="logo" alt="KrestonGlobal Logo" />
+      <h1>KrestonGlobal</h1>
+      <p class="subtitle">Dr. Abdelmoniem Elsayed &amp; Co — Chartered Accountants &amp; Consultants</p>
+      <div class="links">
+        <a class="btn" href="https://wa.me/201018402400" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M20.52 3.48A11.9 11.9 0 0 0 12.06 0 11.94 11.94 0 0 0 .12 11.94a11.8 11.8 0 0 0 1.61 6L0 24l6.23-1.64a12.1 12.1 0 0 0 5.83 1.49h.01c6.62 0 11.98-5.36 11.98-11.98 0-3.2-1.25-6.2-3.53-8.39ZM12.07 21.3h-.01a10.1 10.1 0 0 1-5.15-1.41l-.37-.22-3.7.98.99-3.6-.24-.37a10.3 10.3 0 0 1-1.58-5.47c0-5.68 4.62-10.3 10.31-10.3 2.75 0 5.34 1.07 7.29 3.01 1.95 1.94 3.02 4.53 3.01 7.29 0 5.68-4.62 10.3-10.3 10.3Zm5.88-7.72c-.32-.16-1.88-.93-2.17-1.04-.29-.1-.5-.16-.72.16-.21.32-.83 1.04-1.02 1.26-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.59-.96-.86-1.6-1.92-1.79-2.24-.19-.32-.02-.49.14-.65.15-.15.32-.4.48-.6.16-.21.21-.35.32-.56.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.37-.26-.64-.53-.55-.72-.56h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.1-1.12 2.67 0 1.57 1.15 3.09 1.31 3.3.16.21 2.27 3.47 5.5 4.86.77.33 1.37.52 1.84.67.77.24 1.47.21 2.02.13.62-.09 1.88-.77 2.14-1.51.27-.75.27-1.39.19-1.51-.08-.13-.29-.21-.61-.37Z"/></svg> واتساب</a>
+        <div class="row">
+          <a class="btn" href="https://www.facebook.com/almohaseboon/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M22.675 0h-21.35C.595 0 0 .594 0 1.326v21.348C0 23.405.595 24 1.325 24h11.494v-9.294H9.692V11.08h3.127V8.41c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.765v2.318h3.588l-.467 3.626h-3.12V24h6.116C23.406 24 24 23.405 24 22.674V1.326C24 .594 23.406 0 22.675 0z"/></svg> فيسبوك</a>
+          <a class="btn" href="https://www.instagram.com/krestoninternational_egypt/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.5-.75a1.25 1.25 0 11.001 2.501A1.25 1.25 0 0117.5 8.25z"/></svg> إنستجرام</a>
+        </div>
+        <div class="row">
+          <a class="btn" href="https://www.tiktok.com/@almohaseboon0?lang=en-GB" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M21 8.5a7.5 7.5 0 01-4.5-1.5v7.2a5.2 5.2 0 11-5.2-5.2c.3 0 .6 0 .9.1v2.2c-.2-.1-.5-.2-.9-.2a3 3 0 103 3V2h2a5.5 5.5 0 005.5 5.5H21z"/></svg> تيك توك</a>
+          <a class="btn" href="mailto:info@almohaseboon.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> البريد</a>
+        </div>
+        <a class="btn" href="tel:+201018402400">📞 اتصال مباشر</a>
+      </div>
+      <footer>© 2025 KrestonGlobal</footer>
+    </section>
+  </div>
+</body>
+</html>
